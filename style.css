@@ -71,3 +71,33 @@
         color: white;
         font-size: 15px;
     }
+    #blog {
+        position: absolute;
+        left: 652.6px;
+        top: 241.3px;
+        height: 231.3px;
+        width: 231.3px;
+        background-color: #35BC7A;
+        color: white;
+        font-size: 15px;
+    }
+    #portfolio {
+        position: absolute;
+        left: 652.6px;
+        top: 472.6px;
+        height: 231.3px;
+        width: 231.3px;
+        background-color: #F86925;
+        color: white;
+        font-size: 15px;
+    }
+    #homme {
+        position: absolute;
+        left: 883.9px;
+        top: 10px;
+        height: 693.9px;
+        width: 462.6px;
+        background-color: #F86925;
+        color: white;
+        font-size: 15px;
+    }
