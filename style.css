@@ -1,8 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
 
     body {
         margin: 0;
         padding: 0;
         background-color: #D0D0D0;
+        font-family: 'Overpass', sans-serif;
+        color: white;
+    }
+    h1 {
+        font-size: 22.5px;
+    }
+    p {
+        font-size: 12px;
     }
     #contour {
         background-color:white;
@@ -11,6 +20,10 @@
         width: 1156px;
         margin: 10px 0 0 190px;
     }
+    #para {
+        color: #CBE1DD;
+        font-size: 13px;
+    }
     #bradley {
         position: absolute;
         left: 190px;
@@ -18,8 +31,10 @@
         height: 231.3px;
         width: 462.6px;
         background-color: #35BC7A;
-        color: white;
-        font-size: 15px;
+        padding-top: 40px;
+        padding-left: 30px;
+        line-height: 20px;
+
     }
     #profile {
         position: absolute;
@@ -28,8 +43,6 @@
         height: 231.3px;
         width: 231.3px;
         background-color: #FF9E00;
-        color: white;
-        font-size: 15px;
     }
     #experience {
         position: absolute;
@@ -38,8 +51,6 @@
         height: 231.3px;
         width: 231.3px;
         background-color: #1E8BC4;
-        color: white;
-        font-size: 15px;
     }
     #social {
         position: absolute;
@@ -48,8 +59,6 @@
         height: 231.3px;
         width: 231.3px;
         background-color: #F86925;
-        color: white;
-        font-size: 15px;
     }
     #education {
         position: absolute;
@@ -58,8 +67,6 @@
         height: 231.3px;
         width: 231.3px;
         background-color: #F15A49;
-        color: white;
-        font-size: 15px;
     }
     #contact {
         position: absolute;
@@ -68,8 +75,6 @@
         height: 231.3px;
         width: 231.3px;
         background-color: #1E8BC4;
-        color: white;
-        font-size: 15px;
     }
     #blog {
         position: absolute;
@@ -78,8 +83,6 @@
         height: 231.3px;
         width: 231.3px;
         background-color: #35BC7A;
-        color: white;
-        font-size: 15px;
     }
     #portfolio {
         position: absolute;
@@ -88,8 +91,6 @@
         height: 231.3px;
         width: 231.3px;
         background-color: #F86925;
-        color: white;
-        font-size: 15px;
     }
     #homme {
         position: absolute;
@@ -98,6 +99,4 @@
         height: 693.9px;
         width: 462.6px;
         background-color: #F86925;
-        color: white;
-        font-size: 15px;
     }
