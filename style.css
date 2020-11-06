@@ -1,0 +1,16 @@
+
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #D0D0D0;
+    }
+    #contour {
+        border: 2px solid black;
+        position: relative;
+        height: 900px;
+        width: 900px;
+        margin: 10px 10px 10px 10px;
+    }
+    #bradley {
+
+    }
