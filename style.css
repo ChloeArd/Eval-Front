@@ -1,16 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Assistant&family=Open+Sans&display=swap');
     body {
         margin: 0;
         padding: 0;
         background-color: #D0D0D0;
-        font-family: 'Overpass', sans-serif;
+        font-family: 'Open Sans', sans-serif;
         color: white;
     }
     h1 {
         font-size: 22.5px;
     }
-    p {
+    a {
+        text-decoration: none;
+        color: white;
         font-size: 12px;
     }
     #contour {
@@ -31,69 +33,139 @@
         height: 231.3px;
         width: 462.6px;
         background-color: #35BC7A;
-        padding-top: 40px;
+        padding-top: 35px;
         padding-left: 30px;
-        line-height: 22px;
-
+        line-height: 24px;
     }
     #profile {
         position: absolute;
         left: 652.6px;
         top: 10px;
-        height: 231.3px;
+        height: 86.3px;
         width: 231.3px;
         background-color: #FF9E00;
+        padding-top: 145px;
+        display:block;
         text-align: center;
+    }
+    #iprofile {
+        position: absolute;
+        left: 652.6px;
+        top: 10px;
         padding-top: 75px;
-        line-height: 11px;
+        padding-left: 81px;
     }
     #experience {
         position: absolute;
         left: 190px;
         top: 241.3px;
-        height: 231.3px;
+        height: 86.3px;
         width: 231.3px;
         background-color: #1E8BC4;
+        padding-top: 145px;
+        display:block;
+        text-align: center;
+    }
+    #iexperience {
+        position: absolute;
+        left: 190px;
+        top: 241.3px;
+        padding-top: 86px;
+        padding-left: 81px;
+        height: 41px;
     }
     #social {
         position: absolute;
         left: 190px;
         top: 472.6px;
-        height: 231.3px;
+        height: 86.3px;
         width: 231.3px;
         background-color: #F86925;
+        padding-top: 145px;
+        display:block;
+        text-align: center;
+    }
+    #isocial {
+        position: absolute;
+        left: 190px;
+        top: 472.6px;
+        padding-top: 83px;
+        padding-left: 96px;
     }
     #education {
         position: absolute;
         left: 421.3px;
         top: 241.3px;
-        height: 231.3px;
+        height: 86.3px;
         width: 231.3px;
         background-color: #F15A49;
+        padding-top: 145px;
+        display:block;
+        text-align: center;
+    }
+    #ieducation {
+        position: absolute;
+        left: 421.3px;
+        top: 241.3px;
+        padding-top: 69px;
+        padding-left: 81px;
     }
     #contact {
         position: absolute;
         left: 421.3px;
         top: 472.6px;
-        height: 231.3px;
+        height: 86.3px;
         width: 231.3px;
         background-color: #1E8BC4;
+        padding-top: 145px;
+        display:block;
+        text-align: center;
+    }
+    #icontact {
+        position: absolute;
+        left: 421.3px;
+        top: 472.6px;
+        padding-top: 79px;
+        padding-left: 85px;
+        height: 55px;
     }
     #blog {
         position: absolute;
         left: 652.6px;
         top: 241.3px;
-        height: 231.3px;
+        height: 86.3px;
         width: 231.3px;
         background-color: #35BC7A;
+        padding-top: 145px;
+        display:block;
+        text-align: center;
+    }
+    #iblog {
+        position: absolute;
+        left: 652.6px;
+        top: 241.3px;
+        padding-top: 78px;
+        padding-left: 82px;
+        height: 56px;
     }
     #portfolio {
         position: absolute;
         left: 652.6px;
         top: 472.6px;
-        height: 231.3px;
+        height: 86.3px;
         width: 231.3px;
         background-color: #F86925;
+        padding-top: 145px;
+        display:block;
+        text-align: center;
+    }
+    #iportfolio {
+        position: absolute;
+        left: 652.6px;
+        top: 472.6px;
+        padding-top: 84px;
+        padding-left: 82px;
+        height: 60px;
     }
     #homme {
         position: absolute;
@@ -103,3 +175,4 @@
         width: 462.6px;
         background-color: #F86925;
     }
+
