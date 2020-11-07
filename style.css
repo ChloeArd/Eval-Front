@@ -22,7 +22,7 @@
     }
     #para {
         color: #CBE1DD;
-        font-size: 13px;
+        font-size: 14px;
     }
     #bradley {
         position: absolute;
@@ -33,7 +33,7 @@
         background-color: #35BC7A;
         padding-top: 40px;
         padding-left: 30px;
-        line-height: 20px;
+        line-height: 22px;
 
     }
     #profile {
@@ -43,6 +43,9 @@
         height: 231.3px;
         width: 231.3px;
         background-color: #FF9E00;
+        text-align: center;
+        padding-top: 75px;
+        line-height: 11px;
     }
     #experience {
         position: absolute;
