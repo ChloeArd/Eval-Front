@@ -7,7 +7,7 @@
         color: white;
     }
     h1 {
-        font-size: 22.5px;
+        font-size: 24px;
     }
     a {
         text-decoration: none;
@@ -43,9 +43,10 @@
     #iprofile {
         position: absolute;
         left: 652.6px;
-        top: 10px;
+        top: 14px;
         padding-top: 75px;
         padding-left: 81px;
+        height: 57px;
     }
     #experience {
         position: absolute;
@@ -79,10 +80,11 @@
     }
     #isocial {
         position: absolute;
-        left: 190px;
-        top: 472.6px;
+        left: 189px;
+        top: 474.6px;
         padding-top: 83px;
         padding-left: 96px;
+        height: 38px;
     }
     #education {
         position: absolute;
@@ -115,11 +117,11 @@
     }
     #icontact {
         position: absolute;
-        left: 421.3px;
+        left: 419.3px;
         top: 472.6px;
         padding-top: 79px;
         padding-left: 85px;
-        height: 55px;
+        height: 57px;
     }
     #blog {
         position: absolute;
@@ -135,7 +137,7 @@
     #iblog {
         position: absolute;
         left: 652.6px;
-        top: 241.3px;
+        top: 243.3px;
         padding-top: 78px;
         padding-left: 82px;
         height: 56px;
@@ -154,10 +156,10 @@
     #iportfolio {
         position: absolute;
         left: 652.6px;
-        top: 472.6px;
+        top: 469.6px;
         padding-top: 84px;
         padding-left: 82px;
-        height: 60px;
+        height: 65px;
     }
     #homme {
         position: absolute;
