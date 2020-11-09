@@ -1,217 +1,241 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-    body {
-        margin: 0;
-        padding: 0;
-        background-color: #D0D0D0;
-        font-family: 'Open Sans', sans-serif;
-        color: white;
-    }
-    h1 {
-        font-size: 24px;
-    }
-    a {
-        text-decoration: none;
-        color: white;
-        font-size: 12px;
-    }
-    #para {
-        color: #CBE1DD;
-        font-size: 14px;
-    }
-    #bradley {
-        position: absolute;
-        left: 190px;
-        top: 10px;
-        height: 231.3px;
-        width: 462.6px;
-        background-color: #35BC7A;
-        padding-top: 35px;
-        padding-left: 30px;
-        line-height: 24px;
-    }
-    #profile {
-        position: absolute;
-        left: 652.6px;
-        top: 10px;
-        height: 86.3px;
-        width: 231.3px;
-        background-color: #FF9E00;
-        padding-top: 145px;
-        display:block;
-        text-align: center;
-    }
-    #iprofile {
-        position: absolute;
-        left: 652.6px;
-        top: 14px;
-        padding-top: 75px;
-        padding-left: 81px;
-        height: 57px;
-    }
-    #experience {
-        position: absolute;
-        left: 190px;
-        top: 241.3px;
-        height: 86.3px;
-        width: 231.3px;
-        background-color: #1E8BC4;
-        padding-top: 145px;
-        display:block;
-        text-align: center;
-    }
-    #iexperience {
-        position: absolute;
-        left: 190px;
-        top: 241.3px;
-        padding-top: 86px;
-        padding-left: 81px;
-        height: 41px;
-    }
-    #social {
-        position: absolute;
-        left: 190px;
-        top: 472.6px;
-        height: 86.3px;
-        width: 231.3px;
-        background-color: #F86925;
-        padding-top: 145px;
-        display:block;
-        text-align: center;
-    }
-    #isocial {
-        position: absolute;
-        left: 189px;
-        top: 474.6px;
-        padding-top: 83px;
-        padding-left: 96px;
-        height: 38px;
-    }
-    #education {
-        position: absolute;
-        left: 421.3px;
-        top: 241.3px;
-        height: 86.3px;
-        width: 231.3px;
-        background-color: #F15A49;
-        padding-top: 145px;
-        display:block;
-        text-align: center;
-    }
-    #ieducation {
-        position: absolute;
-        left: 421.3px;
-        top: 241.3px;
-        padding-top: 69px;
-        padding-left: 81px;
-    }
-    #contact {
-        position: absolute;
-        left: 421.3px;
-        top: 472.6px;
-        height: 86.3px;
-        width: 231.3px;
-        background-color: #1E8BC4;
-        padding-top: 145px;
-        display:block;
-        text-align: center;
-    }
-    #icontact {
-        position: absolute;
-        left: 419.3px;
-        top: 472.6px;
-        padding-top: 79px;
-        padding-left: 85px;
-        height: 57px;
-    }
-    #blog {
-        position: absolute;
-        left: 652.6px;
-        top: 241.3px;
-        height: 86.3px;
-        width: 231.3px;
-        background-color: #35BC7A;
-        padding-top: 145px;
-        display:block;
-        text-align: center;
-    }
-    #iblog {
-        position: absolute;
-        left: 652.6px;
-        top: 243.3px;
-        padding-top: 78px;
-        padding-left: 82px;
-        height: 56px;
-    }
-    #portfolio {
-        position: absolute;
-        left: 652.6px;
-        top: 472.6px;
-        height: 86.3px;
-        width: 231.3px;
-        background-color: #F86925;
-        padding-top: 145px;
-        display:block;
-        text-align: center;
-    }
-    #iportfolio {
-        position: absolute;
-        left: 652.6px;
-        top: 469.6px;
-        padding-top: 84px;
-        padding-left: 82px;
-        height: 65px;
-    }
-    #homme {
-        position: absolute;
-        left: 883.9px;
-        top: 10px;
-        height: 693.9px;
-        width: 462.6px;
-        background-color: #F86925;
-    }
-    #resume {
-        position: absolute;
-        border: 2px solid white;
-        left: 220px;
-        top: 160px;
-        height: 20px;
-        width: 95px;
-        padding-top: 10px;
-        text-align: right;
-        padding-right: 20px;
-        padding-bottom: 10px;
-        font-weight: bold;
-        font-size: 13px;
-        display:block;
-    }
-    #iresume {
-        position: absolute;
-        left: 238px;
-        top: 160px;
-        padding-top: 13px;
-        padding-left: 10px;
-        height: 14px;
-    }
-    #contact2 {
-        position: absolute;
-        border: 2px solid white;
-        left: 355px;
-        top: 160px;
-        height: 20px;
-        width: 95px;
-        padding-top: 10px;
-        text-align: right;
-        padding-right: 20px;
-        padding-bottom: 10px;
-        font-weight: bold;
-        font-size: 13px;
-        display:block;
-    }
-    #icontact2 {
-        position: absolute;
-        left: 372px;
-        top: 157px;
-        padding-top: 13px;
-        padding-left: 10px;
-        height: 16px;
-    }
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #D0D0D0;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+.para {
+    color: #CBE1DD;
+    font-size: 14px;
+    line-height: 10px;
+}
+
+.bradley {
+    position: absolute;
+    left: 190px;
+    top: 10px;
+    height: 231.3px;
+    width: 462.6px;
+    background-color: #35BC7A;
+    padding-top: 35px;
+    padding-left: 30px;
+    line-height: 27px;
+}
+
+.profile {
+    position: absolute;
+    left: 652.6px;
+    top: 10px;
+    height: 86.3px;
+    width: 231.3px;
+    background-color: #FF9E00;
+    padding-top: 145px;
+    display:block;
+    text-align: center;
+}
+
+.iprofile {
+    position: absolute;
+    left: 652.6px;
+    top: 14px;
+    padding-top: 75px;
+    padding-left: 81px;
+    height: 57px;
+}
+
+.experience {
+    position: absolute;
+    left: 190px;
+    top: 241.3px;
+    height: 86.3px;
+    width: 231.3px;
+    background-color: #1E8BC4;
+    padding-top: 145px;
+    display:block;
+    text-align: center;
+}
+
+.iexperience {
+    position: absolute;
+    left: 190px;
+    top: 241.3px;
+    padding-top: 86px;
+    padding-left: 81px;
+    height: 41px;
+}
+
+.social {
+    position: absolute;
+    left: 190px;
+    top: 472.6px;
+    height: 86.3px;
+    width: 231.3px;
+    background-color: #F86925;
+    padding-top: 145px;
+    display:block;
+    text-align: center;
+}
+
+.isocial {
+    position: absolute;
+    left: 189px;
+    top: 474.6px;
+    padding-top: 83px;
+    padding-left: 96px;
+    height: 38px;
+}
+
+.education {
+    position: absolute;
+    left: 421.3px;
+    top: 241.3px;
+    height: 86.3px;
+    width: 231.3px;
+    background-color: #F15A49;
+    padding-top: 145px;
+    display:block;
+    text-align: center;
+}
+
+.ieducation {
+    position: absolute;
+    left: 421.3px;
+    top: 241.3px;
+    padding-top: 69px;
+    padding-left: 81px;
+}
+
+.contact {
+    position: absolute;
+    left: 421.3px;
+    top: 472.6px;
+    height: 86.3px;
+    width: 231.3px;
+    background-color: #1E8BC4;
+    padding-top: 145px;
+    display:block;
+    text-align: center;
+}
+
+.icontact {
+    position: absolute;
+    left: 419.3px;
+    top: 472.6px;
+    padding-top: 79px;
+    padding-left: 85px;
+    height: 57px;
+}
+
+.blog {
+    position: absolute;
+    left: 652.6px;
+    top: 241.3px;
+    height: 86.3px;
+    width: 231.3px;
+    background-color: #35BC7A;
+    padding-top: 145px;
+    display:block;
+    text-align: center;
+}
+
+.iblog {
+    position: absolute;
+    left: 652.6px;
+    top: 243.3px;
+    padding-top: 78px;
+    padding-left: 82px;
+    height: 56px;
+}
+
+.portfolio {
+    position: absolute;
+    left: 652.6px;
+    top: 472.6px;
+    height: 86.3px;
+    width: 231.3px;
+    background-color: #F86925;
+    padding-top: 145px;
+    display:block;
+    text-align: center;
+}
+
+.iportfolio {
+    position: absolute;
+    left: 652.6px;
+    top: 469.6px;
+    padding-top: 84px;
+    padding-left: 82px;
+    height: 65px;
+}
+
+.homme {
+    position: absolute;
+    left: 883.9px;
+    top: 10px;
+    height: 693.9px;
+    width: 462.6px;
+    background-color: #F86925;
+}
+
+.resume {
+    position: absolute;
+    border: 2px solid white;
+    left: 220px;
+    top: 160px;
+    height: 20px;
+    width: 95px;
+    padding-top: 10px;
+    text-align: right;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 13px;
+    display:block;
+}
+
+.iresume {
+    position: absolute;
+    left: 238px;
+    top: 160px;
+    padding-top: 13px;
+    padding-left: 10px;
+    height: 14px;
+}
+
+.contact2 {
+    position: absolute;
+    border: 2px solid white;
+    left: 355px;
+    top: 160px;
+    height: 20px;
+    width: 95px;
+    padding-top: 10px;
+    text-align: right;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 13px;
+    display:block;
+}
+
+.icontact2 {
+    position: absolute;
+    left: 372px;
+    top: 157px;
+    padding-top: 13px;
+    padding-left: 10px;
+    height: 16px;
+}
