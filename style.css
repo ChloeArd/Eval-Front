@@ -138,6 +138,51 @@ a {
         padding: 1rem;
     }
 
+    .gauche, .droite {
+        width: 50%;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    #container {
+        height: 72rem;
+    }
+
+    .top {
+        height: 50%;
+    }
+
+    .middle, .bottom {
+        height: 25%;
+        margin-left: -2px;
+    }
+
+    .bradley, .profile {
+        width: 100%;
+        display: block;
+    }
+
+    .bradley {
+        height: 60%;
+    }
+
+    .profile {
+        height: 40%;
+    }
+
+    .presentation, .petitrect {
+        width: 50%;
+        display: inline-block;
+        margin-left: -4px;
+    }
+
+    #tailleN {
+        margin-top: 5%;
+    }
+}
+
 @media screen and (max-width: 600px){
     #container {
         height: 68rem;
@@ -146,6 +191,43 @@ a {
     #container, .gauche, .top, .middle, .bottom, .droite {
         width: 100%;
         margin: 0;
+    }
+
+    #container {
+        height: 68rem;
+    }
+
+    .middle, .bottom, .top {
+        height: 33.3%;
+        margin-left: -2px;
+    }
+
+    .bradley, .profile {
+        display: inline-block;
+        height: 100%;
+    }
+
+    .bradley {
+        width: 66.7%;
+    }
+
+    .profile {
+        width: 33.3%;
+    }
+
+    .petitrect, .presentation {
+        width: 100%;
+        display: inline-block;
+        margin-left: -4px;
+    }
+
+    .tailleI {
+        font-size: 5.3rem;
+        margin-top: 30%;
+    }
+
+    #tailleN {
+        margin-top: 5%;
     }
 }
 
@@ -182,8 +264,6 @@ a {
         display: inline-block;
         margin-left: -4px;
     }
-
-
 
     #tailleN {
         margin-top: 5%;
