@@ -240,17 +240,18 @@ a {
     }
     .top {
         height: 50%;
+        margin-left: 0;
     }
     .middle, .bottom {
         height: 25%;
-        margin-left: -2px;
+        margin-left: -1px;
     }
 
     .bradley, .profile {
         width: 100%;
         display: block;
     }
-
+    
     .bradley {
         height: 60%;
     }
