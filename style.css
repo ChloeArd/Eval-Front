@@ -126,7 +126,7 @@ a {
     margin-top: 30%;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
     #container {
         width: 100%;
         margin: 0;
@@ -136,6 +136,39 @@ a {
 @media screen and (max-width: 768px) {
     .resume, .icontact {
         padding: 1rem;
+    }
+
+    .para {
+        font-size: 1.3rem;
+    }
+
+    .gauche, .droite {
+        width:50%;
+    }
+
+    .top {
+        height: 50%;
+    }
+    .middle, .bottom {
+        height: 25%;
+        margin-left: -2px;
+    }
+
+    .bradley, .profile {
+        width: 100%;
+        display: block;
+    }
+
+    .bradley {
+        height: 60%;
+    }
+
+    .profile {
+        height: 40%;
+    }
+
+    #tailleN {
+        margin-top: 5%;
     }
 }
 
