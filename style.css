@@ -138,45 +138,11 @@ a {
         padding: 1rem;
     }
 
-    .para {
-        font-size: 1.3rem;
-    }
-
-    .gauche, .droite {
-        width:50%;
-    }
-
-    .top {
-        height: 50%;
-    }
-    .middle, .bottom {
-        height: 25%;
-        margin-left: -2px;
-    }
-
-    .bradley, .profile {
-        width: 100%;
-        display: block;
-    }
-
-    .bradley {
-        height: 60%;
-    }
-
-    .profile {
-        height: 40%;
-    }
-
-    #tailleN {
-        margin-top: 5%;
-    }
-}
-
-
 @media screen and (max-width: 600px){
     #container {
         height: 68rem;
     }
+
     #container, .gauche, .top, .middle, .bottom, .droite {
         width: 100%;
         margin: 0;
