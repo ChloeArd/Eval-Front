@@ -126,14 +126,17 @@ a {
     margin-top: 30%;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
     #container {
         width: 100%;
         margin: 0;
     }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
+    #container {
+        height: 48rem;
+    }
     .resume, .icontact {
         padding: 1rem;
     }
@@ -141,6 +144,9 @@ a {
 
 
 @media screen and (max-width: 600px){
+    #container {
+        height: 68rem;
+    }
     #container, .gauche, .top, .middle, .bottom, .droite {
         width: 100%;
         margin: 0;
