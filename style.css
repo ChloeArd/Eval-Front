@@ -129,6 +129,7 @@ a {
 @media screen and (max-width: 1200px) {
     #container {
         width: 100%;
+        height: 77rem;
         margin: 0;
     }
 }
@@ -154,8 +155,11 @@ a {
 }
 
 @media screen and (max-width: 430px) {
+    h1 {
+        font-size: 2rem;
+    }
     #container {
-        height: 78rem;
+        height: 72rem;
     }
     .top {
         height: 50%;
@@ -190,9 +194,5 @@ a {
 
     #tailleN {
         margin-top: 5%;
-    }
-
-    .resume, .icontact {
-        padding: 1.1rem 2.3rem 1.1rem 2.3rem;
     }
 }
