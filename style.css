@@ -148,11 +148,15 @@ a {
 }
 
 @media screen and (max-width: 430px) {
+    #container {
+        height: 78rem;
+    }
     .top {
         height: 50%;
     }
     .middle, .bottom {
         height: 25%;
+        margin-left: -2px;
     }
 
     .bradley, .profile {
