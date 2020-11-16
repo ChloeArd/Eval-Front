@@ -16,14 +16,14 @@ body {
     text-align: center;
 }
 
-.gauche, .droite, .profile, .bradley, .experience, .social, .education, .blog, .contact, .portfolio, .resume, .icontact{
+.gauche, .droite, .profile, .bradley, .experience, .social, .education, .blog, .contact, .portfolio, .resume, .icontact {
     display: inline-block;
     overflow: hidden;
     margin-right: -4px;
     text-align: center;
 }
 
-#container{
+#container {
     margin: 2rem auto auto;
     width: 75%;
     height: 68rem;
@@ -183,7 +183,7 @@ a {
     }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
     #container {
         height: 68rem;
     }
@@ -235,13 +235,16 @@ a {
     h1 {
         font-size: 2rem;
     }
+
     #container {
         height: 72rem;
     }
+
     .top {
         height: 50%;
         margin-left: 0;
     }
+
     .middle, .bottom {
         height: 25%;
         margin-left: -1px;
@@ -251,7 +254,7 @@ a {
         width: 100%;
         display: block;
     }
-    
+
     .bradley {
         height: 60%;
     }
