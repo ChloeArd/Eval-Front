@@ -25,3 +25,7 @@ Inclure un README avec le repo qui fournit un bref aperçu du projet, ainsi que 
 #### Aperçu
 
 ![evaluation](evalfront.png)
+
+
+Bref aperçu du projet:
+(https://imagizer.imageshack.com/img923/9436/z90Yzu.png)
